@@ -1,7 +1,7 @@
-## Self-supervised speech recognition with limited amount of labeled data
+# Self-supervised speech recognition with limited amount of labeled data
 
 
-## Pre-trained models (Pretrain + Fine-tune + LM)
+# Pre-trained models (Pretrain + Fine-tune + LM)
 - [Vietnamese](https://drive.google.com/file/d/1kZFdvMQt-R7fVebTbfWMk8Op7I9d24so/view?usp=sharing)
 
 Download model then run:
@@ -20,21 +20,24 @@ Run web test
 python app.py
 ```
 
-## For tester
+# For tester
 
-# Test by code:
-
+## Test by code:
+Step 1:
 ```
 git clone http://gitlab.giaingay.io/vuthithao/self-supervised-speech-recognition.git
 ```
+Step 2:
+
 Install necessery lib
 - librosa 0.8.0
 - numba 0.52.0
 - pyaudio
 
+Step 3:
 ```
 python call.py
 ```
 
-# Test by web:
+## Test by web:
 Access to [103.137.4.6:4444](103.137.4.6:4444)
